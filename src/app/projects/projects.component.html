@@ -1,0 +1,29 @@
+<section class="section projects-section" id="projects">
+  <div class="container">
+    <div class="section-heading project-heading">
+      <div>
+        <p class="eyebrow"><span class="section-number">03 /</span> SELECTED WORK</p>
+        <h2>Learning through <span class="gradient-text">building.</span></h2>
+      </div>
+      <a class="text-link" href="https://github.com/TryLyhak" target="_blank" rel="noopener noreferrer">View GitHub profile <span>↗</span></a>
+    </div>
+    <div class="projects-grid">
+      @for (project of projects(); track project.number) {
+        <article class="project-card">
+          <div class="project-visual" [class]="'project-visual ' + project.accent">
+            <div class="project-visual-top"><span>PROJECT / {{ project.number }}</span><span class="visual-open">↗</span></div>
+            <div class="project-art"><span>{{ project.icon }}</span></div>
+            <div class="project-visual-bottom"><span>TRY LYHAK</span><span>CASE STUDY</span></div>
+          </div>
+          <div class="project-info">
+            <p class="project-category">{{ project.category }}</p>
+            <h3>{{ project.name }}</h3>
+            <p class="project-description">{{ project.description }}</p>
+            <div class="project-tags">@for (tag of project.stack; track tag) { <span>{{ tag }}</span> }</div>
+          </div>
+        </article>
+      }
+    </div>
+    <p class="project-note">These are learning and academic projects. Some are works in progress; ask me for a walkthrough or code sample.</p>
+  </div>
+</section>

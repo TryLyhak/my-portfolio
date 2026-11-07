@@ -1,0 +1,12 @@
+:root {
+  color-scheme: dark;
+  --bg: #090b12;
+  --text: #f2f3f8;
+  font-family: 'Manrope', Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: 78px; }
+body { margin: 0; max-width: 100%; overflow-x: hidden; background: var(--bg); color: var(--text); }
+a { -webkit-tap-highlight-color: transparent; }
+::selection { background: rgba(154,124,255,.35); color: #fff; }

@@ -1,0 +1,18 @@
+<section class="section skills-section" id="skills">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow"><span class="section-number">02 /</span> WHAT I WORK WITH</p>
+      <h2>Tools I use to <span class="gradient-text">make things work.</span></h2>
+      <p class="section-subtitle">A practical toolkit I have used in coursework and projects. I'm continuing to strengthen these skills.</p>
+    </div>
+    <div class="skills-grid">
+      @for (group of skills(); track group.title; let i = $index) {
+        <article class="skill-card">
+          <div class="skill-card-top"><span class="skill-index">0{{ i + 1 }}</span><span class="skill-symbol">{{ group.symbol }}</span></div>
+          <h3>{{ group.title }}</h3>
+          <div class="skill-tags">@for (skill of group.items; track skill) { <span>{{ skill }}</span> }</div>
+        </article>
+      }
+    </div>
+  </div>
+</section>

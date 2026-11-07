@@ -1,0 +1,42 @@
+{
+  "hash": "fe4fe052",
+  "configHash": "ea91e698",
+  "lockfileHash": "c05aaaf1",
+  "browserHash": "c1cedf3f",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "02efe7b9",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "d42b5146",
+      "needsInterop": false
+    },
+    "lucide": {
+      "src": "../../../../../../node_modules/lucide/dist/esm/lucide.mjs",
+      "file": "lucide.js",
+      "fileHash": "102c064a",
+      "needsInterop": false
+    },
+    "zone.js": {
+      "src": "../../../../../../node_modules/zone.js/fesm2015/zone.js",
+      "file": "zone__js.js",
+      "fileHash": "5c3c71a3",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "core-ITJGPfrf": {
+      "file": "core-ITJGPfrf.js",
+      "isDynamicEntry": false
+    },
+    "objectSpread2-7HcptuV8": {
+      "file": "objectSpread2-7HcptuV8.js",
+      "isDynamicEntry": false
+    }
+  }
+}
