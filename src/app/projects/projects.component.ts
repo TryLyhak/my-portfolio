@@ -8,6 +8,7 @@ export type Project = {
   stack: string[];
   accent: string;
   icon: string;
+  url?: string;
 };
 
 @Component({

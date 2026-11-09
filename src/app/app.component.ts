@@ -52,7 +52,8 @@ export class AppComponent {
       description: 'An Angular shopping interface with product browsing and a cart experience. Cart data is stored locally in the browser.',
       stack: ['Angular', 'TypeScript', 'HTML', 'CSS'],
       accent: 'orange',
-      icon: '◈'
+      icon: '◈',
+      url: 'https://scott-shop.vercel.app/'
     },
     {
       number: '04',

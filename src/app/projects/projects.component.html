@@ -20,6 +20,9 @@
             <h3>{{ project.name }}</h3>
             <p class="project-description">{{ project.description }}</p>
             <div class="project-tags">@for (tag of project.stack; track tag) { <span>{{ tag }}</span> }</div>
+            @if (project.url) {
+              <a class="project-link" [href]="project.url" target="_blank" rel="noopener noreferrer">View live project <span>↗</span></a>
+            }
           </div>
         </article>
       }
